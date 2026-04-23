@@ -1,5 +1,6 @@
 import * as Yup from "yup";
 import { Request, Response } from "express";
+import "multer";
 import { getIO } from "../libs/socket";
 import { head } from "lodash";
 import fs from "fs";

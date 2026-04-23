@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import "multer";
 import { getIO } from "../libs/socket";
 import { head } from "lodash";
 

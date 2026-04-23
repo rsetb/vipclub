@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import "multer";
 import AppError from "../errors/AppError";
 
 import formatBody from "../helpers/Mustache";

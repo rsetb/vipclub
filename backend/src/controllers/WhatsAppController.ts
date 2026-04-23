@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import "multer";
 import { getIO } from "../libs/socket";
 import { removeWbot, restartWbot } from "../libs/wbot";
 import { StartWhatsAppSession } from "../services/WbotServices/StartWhatsAppSession";

@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import "multer";
 
 import CreateService from "../services/QueueOptionService/CreateService";
 import ListService from "../services/QueueOptionService/ListService";

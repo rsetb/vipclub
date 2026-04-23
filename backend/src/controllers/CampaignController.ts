@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import "multer";
 import fs from "fs";
 import { head } from "lodash";
 import path from "path";

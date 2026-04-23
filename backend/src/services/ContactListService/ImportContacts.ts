@@ -1,5 +1,6 @@
 import { head } from "lodash";
 import XLSX from "xlsx";
+import "multer";
 import { has } from "lodash";
 import ContactListItem from "../../models/ContactListItem";
 import CheckContactNumber from "../WbotServices/CheckNumber";

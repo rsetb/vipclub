@@ -1,4 +1,5 @@
 import { WAMessage, AnyMessageContent } from "baileys";
+import "multer";
 import * as Sentry from "@sentry/node";
 import fs from "fs";
 import { exec } from "child_process";
