@@ -79,7 +79,8 @@
     "xlsx": "^0.18.5",
     "yup": "^0.32.8",
     "compression": "^1.7.4",
-    "helmet": "^6.1.5"
+    "helmet": "^6.1.5",
+    "react-refresh": "^0.14.0"
   },
   "scripts": {
     "start": "node server.js",
@@ -111,7 +112,6 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "cache-loader": "^4.1.0",
     "hard-source-webpack-plugin": "^0.13.1",
-    "react-refresh": "^0.14.0",
     "source-map-explorer": "^2.5.3",
     "thread-loader": "^3.0.4"
   }
